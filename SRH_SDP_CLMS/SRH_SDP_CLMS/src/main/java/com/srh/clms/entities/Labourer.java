@@ -6,11 +6,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-public class Labourer {
+
 
 @Entity
 @Table(name = "LABOURER")
-public class Labour {
+public class Labourer {
 	private int idLabour;
 	private int WorkType;
 	private String WorkDescp;
@@ -21,10 +21,10 @@ public class Labour {
 	private int ATTENDANCE_idAttendence;
 	private int SALARY_SalaryId;
 
-	public Labour() {
+	public Labourer() {
 	}
 
-	public Labour(int idLabour, int workType, String workDescp, int detailedInfo_idInfo, String skill, int experience,
+	public Labourer(int idLabour, int workType, String workDescp, int detailedInfo_idInfo, String skill, int experience,
 			double workPermitNo, int aTTENDANCE_idAttendence, int sALARY_SalaryId) {
 		super();
 		this.idLabour = idLabour;
