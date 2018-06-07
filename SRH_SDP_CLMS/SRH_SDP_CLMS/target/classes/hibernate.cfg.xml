@@ -16,5 +16,6 @@
         <!-- add classes to map from here -->
         <mapping class="hibernate.test.Labour" />
         <mapping class="hibernate.test.Accounts" />
+        <mapping class="hibernate.test.Registration" />
     </session-factory>
 </hibernate-configuration>
